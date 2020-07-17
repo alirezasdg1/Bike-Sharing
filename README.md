@@ -19,7 +19,7 @@ Here, I visualize number of casual/registered users for different seasons, weekd
 	H1. Number of bike users depends of whether conditions
 	H2. Number of registered users higher than casual users during weekdays
 	H3. Number of casual users are higher than registered users during holidays
-  H4. Number of total users are higher during each weekday comparing to weekends
-  H5. Number of users are higher during morning/evening comparing to afternoon during weekdays.
+	H4. Number of total users are higher during each weekday comparing to weekends
+	H5. Number of users are higher during morning/evening comparing to afternoon during weekdays.
 
 1. https://archive.ics.uci.edu/ml/machine-learning-databases/00275/
