@@ -9,12 +9,18 @@ In terms of UX, it is essential to explore the daily and seasonal usage of bikes
 
 # Methods:
 
-To achieve the main goal of this study, I use a bike share dataset [1]. The dataset includes more than 17,000 instances with the following attributes: 
+To achieve the main goal of this study, I use three diferent dataset. The first dataset is for a bake share system( i.e., bluebikes in Boston) for the year 2017 [1]. This dataset includes more than 1,000,000 instances with the following attributes [2]: 
 
-1. Instance, 2. Date, 3. Year, 4. Month, 5. Hour, 6. Holidays, 7. Weekday, 8. Working days, 9. Weather condition, 10. Temperature, 11. Normalized humidity, 12. Windspeed, 13. Count of casual users for each hour, 14. Count of registered users for each hours 
+1. Trip Duration (seconds), 2. Start Time and Date, 3. Stop Time and Date, 4. Start Station Name & ID, 5. End Station Name & ID, 6. Bike ID, 7. User Type (Casual = Single Trip or Day Pass user; Member = Annual or Monthly Member), 8. Birth Year, 9. Gender
+
+The second dataset [3] includes boston whether data for every days between 1/1/2013-4/8/18. This dataset contains the following attributes:
+
+1. averages of temperature, 2. dew point, 3. wind speeds, 4. sea level pressure, and 5. precipitation levels
+
+Finally, the last dataset [3] includes official holidays for Boston in 2017. 
 
 
-Here, I visualize the number of casual/registered users for different seasons, weekdays, weathers, and daytimes. I also test several hypotheses:
+Here, after merging the mentioned datasets, I visualize the number of casual/registered users for different seasons, weekdays, weathers, and daytimes. I also test several hypotheses:
 
 	H1. Number of bike users depends of weather conditions
 	H2. Number of registered users higher than casual users during weekdays
@@ -22,5 +28,9 @@ Here, I visualize the number of casual/registered users for different seasons, w
 	H4. Number of total users are higher during each weekday comparing to weekends
 	H5. Number of users are higher during morning/evening rush hours comparing to afternoon during weekdays.
 
+Refrences:
 
-1. https://archive.ics.uci.edu/ml/machine-learning-databases/00275/
+1. https://s3.amazonaws.com/hubway-data/index.html
+2. https://www.bluebikes.com/system-data
+2. https://www.kaggle.com/jqpeng/boston-weather-data-jan-2013-apr-2018
+3. https://www.officeholidays.com/countries/usa/massachusetts/2017
