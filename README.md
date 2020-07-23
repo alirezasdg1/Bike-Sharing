@@ -11,11 +11,23 @@ In terms of UX, it is essential to explore the daily and seasonal usage of bikes
 
 To achieve the main goal of this study, I used three different dataset. The first dataset was for a bake share system( i.e., Bluebikes in Boston) [1]. Here, I only included data for year 2017. This dataset included more than 1,300,000 instances with the following attributes [2]:
 
-	1. Trip Duration (seconds), 2. Start Time and Date, 3. Stop Time and Date, 4. Start Station Name & ID, 5. End Station Name & ID, 6. Bike ID, 7. User Type (Casual = Single Trip or Day Pass user; Member = Annual or Monthly Member), 8. Birth Year, 9. Gender
+	1. Trip Duration (seconds)
+	2. Start Time and Date
+	3. Stop Time and Date
+	4. Start Station Name & ID
+	5. End Station Name & ID
+	6. Bike ID
+	7. User Type (Casual = Single Trip or Day Pass user; Member = Annual or Monthly Member)
+	8. Birth Year
+	9. Gender
 
 The second dataset [3] included Boston weather data for every days between 1/1/2013-4/8/18. Again, I only used dataset for year 2017. This dataset contains the following attributes:
 
-	1. averages of temperature, 2. dew point, 3. wind speeds, 4. sea level pressure, and 5. precipitation levels
+	1. Averages of temperature
+	2. Average of dew point
+	3. Average of wind speeds
+	4. sea level pressure
+	5. precipitation levels
 
 Finally, the last dataset [3] included 2017 official holidays for Boston.
 
@@ -24,11 +36,15 @@ To analyze data, I first had to join all of the data tables (e.g., biking system
 In this project, I was mainly interested in exploring the effects of different factors on the number of trips/day. To compute my main outcomes (# trips/day), I counted the number of the “starttime” for each day. To achieve the main goal of this study, I explored the effects of weather condition, season, gender, and age on the main outcome by visualizing several patterns and testing the following hypotheses:
 
 
-	H1. Number of bike users depends of weather conditions
-	H2. Number of registered users higher than casual users during weekdays
-	H3. Number of casual users are higher than registered users during holidays
-	H4. Number of total users are higher during each weekday comparing to weekends
-	H5. Number of users are higher during morning/evening rush hours comparing to afternoon during weekdays.
+	H1. Number of trips/day depends of weather conditions.
+	H2. Number of trips/day is highly correlated with weather indexes (e.g., Avg temp, Avg Humidity, Avg Visibility, Avg Wind speed). 
+	H3. Number of trips/day is higher during the warm seasons comparing with the cold seasons.
+	H4. Number of registered users higher than casual users during weekdays.
+	H3. Number of casual users are higher than registered users during off days.
+	H4. Number of trips/day is higher during each weekday comparing to weekends.
+	H5. Number of trips/day for females and males are similar.
+	H6. Number of trips/day for young people are higher than other age groups.
+
 
 ## References:
 
