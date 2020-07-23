@@ -123,6 +123,12 @@ In this section, I investigated number of trips/day for different users (i.e., r
 <img src='src/figs/BostonMap.png'>
 <center>Fig 4. It shows start locations and number of trips/day for all of the biking trips in year 2017. The blue markers indicate registered customers and red markers show casual users. The markers sizes are proportional to the number of trips per day. </em>
 
+
+Based on Fig.5, in all days of the year 2017, the registered users were higher than casual users. Also, it seems that the pick of bike usages for registered and casual users did not occur at the same time. The pick of usages for the registered users was around September, and for the causal users occurred around June. 
+
+<img src='src/figs/UsersOverTime.png'>
+<center>Fig 5. It shows the number of trips/day over time for different users. </em>
+
 ## References:
 
 1. https://s3.amazonaws.com/hubway-data/index.html
