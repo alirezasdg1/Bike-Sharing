@@ -1,5 +1,5 @@
 # Bike-Sharing
-# Introduction:
+## Introduction:
 
 Transportation congestion and air pollution are two major problems in most large cities. Using bikes instead of personal vehicles can be a practical solution to address these critical issues. As such, governments all around the world support companies that facilitate using bikes. Bike sharing system is a trending industry to encourage citizens to use bikes as their daily transportation mode. 
 
@@ -7,7 +7,7 @@ Successful adopting this technology highly depends on user experience (UX) and i
 
 In terms of UX, it is essential to explore the daily and seasonal usage of bikes to make sure that there are sufficient bikes based on demands. In addition, understanding whether this technology is adopted for daily usage, it is important to explore bike usages in different weekdays. As such, the main goal of this study is to visualize and compare time usage of bikes for different seasons, weekdays, and day times.
 
-# Methods:
+## Methods:
 
 To achieve the main goal of this study, I use three diferent dataset. The first dataset is for a bake share system( i.e., bluebikes in Boston) for the year 2017 [1]. This dataset includes more than 1,000,000 instances with the following attributes [2]: 
 
@@ -28,7 +28,7 @@ Here, after merging the mentioned datasets, I visualize the number of casual/reg
 	H4. Number of total users are higher during each weekday comparing to weekends
 	H5. Number of users are higher during morning/evening rush hours comparing to afternoon during weekdays.
 
-# References:
+## References:
 
 1. https://s3.amazonaws.com/hubway-data/index.html
 2. https://www.bluebikes.com/system-data
