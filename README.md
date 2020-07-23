@@ -53,7 +53,7 @@ In the following sections, I discussed the results of my analyses in details.
 
 Here, I compared the number of trips/day for different weather conditions (i.e., clear, rainy, snowy, and both rainy and snowy weathers). Analyses of variance (ANOVAs) showed that the weather condition had significant effects on the outcome (p<0.001). I used the Tukey method for performing the paired comparisons. This method showed that the number of trips were significantly higher during clear and rainy weathers comparing with the snowy and both snowy and rainy weathers (Table1 and Fig 1). Surprisingly, there were not any significant differences between rainy and clear weather.
 
-<p align="center">
+<center>
 Table 1. results of multiple comparison of means - Tukey HSD
 
 |group1|group2|p-adj|reject|
@@ -65,7 +65,8 @@ Table 1. results of multiple comparison of means - Tukey HSD
 |  Rain|  Both|0.002|True  |
 |  Snow|  Both|0.001|True  |
 
-</p>
+<center>
+
 
 <p align="center">
 <img src='src/figs/Weather_conditions.png'>
