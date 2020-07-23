@@ -95,6 +95,7 @@ Table 2. results of multiple comparison of means - Tukey HSD
 <img src='src/figs/Weather_conditions.png'>
 <center>Fig 2. It shows the mean of the number of trips/day for different weather conditions. Error bars indicate 95% confidence intervals. </em>
 </p>
+
 ### Season effects
 
 My results showed that seasons had significant effects on the outcome variable (Table 3). As you can see in Fig 3, the number of trips/day increased significantly during spring and summer comparing with winter and fall. It is also interesting that the difference between fall and winter is very large (Fig 3).
