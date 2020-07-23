@@ -121,7 +121,7 @@ Table 3. results of multiple comparison of means - Tukey HSD
 In this section, I investigated number of trips/day for different users (i.e., registered and casual users). As you can see in Fig 4., the causal users (indicated by red markers) mainly started their trips for stations that were closer to recreational areas. Based on the marker sizes in Fig 4, the majority of trips started by the registered users, and these users are distributed in larger area in Boston.
 
 <img src='src/figs/BostonMap.png'>
-<center>Fig 4. It shows start locations and number of trips/day for all of the biking trips in year 2017. The blue markers indicate registered customers and red markers show casual users. The markers sizes are proportional to the number of trips per day. </em>
+Fig 4. It shows start locations and number of trips/day for all of the biking trips in year 2017. The blue markers indicate registered customers and red markers show casual users. The markers sizes are proportional to the number of trips per day. </em>
 
 
 Based on Fig.5, in all days of the year 2017, the registered users were higher than casual users. Also, it seems that the pick of bike usages for registered and casual users did not occur at the same time. The pick of usages for the registered users was around September, and for the causal users occurred around June. 
