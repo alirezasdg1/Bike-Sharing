@@ -99,6 +99,9 @@ Table 2. results of multiple comparison of means - Tukey HSD
 
 ### Season effects
 
+My results showed that seasons had significant effects on the outcome variable (Table 3). As you can see in Fig 3, the number of trips/day increased significantly during spring and summer comparing with winter and fall. It is also interesting that the difference between fall and winter is very large (Fig 3).
+
+<p>
 <center>
 Table 3. results of multiple comparison of means - Tukey HSD
 
@@ -112,7 +115,7 @@ Table 3. results of multiple comparison of means - Tukey HSD
 |Summer|Winter|0.001|True  |
 
 <center>
-
+</p>
 
 <p align="center">
 <img src='src/figs/Weather_seasons.png'>
