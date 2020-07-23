@@ -68,8 +68,7 @@ Table 1. Correlation between different weather indexes and the number of trips/d
 
 <p align="center">
 <img src='src/figs/Weather_Indexes.png'>
-
-<center>Fig 2. The correlation between different weather indexes and the outcome variables. </em>
+<center>Fig 1. The correlation between different weather indexes and the outcome variables. </em>
 </p>
 
 ### Weather conditions:
@@ -93,7 +92,6 @@ Table 2. results of multiple comparison of means - Tukey HSD
 
 
 <img src='src/figs/Weather_conditions.png'>
-
 <center>Fig 2. It shows the mean of the number of trips/day for different weather conditions. Error bars indicate 95% confidence intervals. </em>
 
 
@@ -116,7 +114,6 @@ Table 3. results of multiple comparison of means - Tukey HSD
 
 
 <img src='src/figs/Weather_seasons.png'>
-
 <center>Fig 3. It shows the mean of the number of trips/day for different seasons. Error bars indicate 95% confidence intervals. </em>
 
 
