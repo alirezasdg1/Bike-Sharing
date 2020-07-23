@@ -118,7 +118,8 @@ Table 3. results of multiple comparison of means - Tukey HSD
 
 ## Registered users vs casual users
 
-<iframe src="src/figs/BostonMap.html' width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+<img src='src/figs/BostonMap.png'>
+<center>Fig 4. It shows start locations and number of trips/day for all of the biking trips in year 2017. The blue markers indicate registered customers and red markers show casual users. The markers sizes are proportional to the number of trips per day. </em>
 
 ## References:
 
