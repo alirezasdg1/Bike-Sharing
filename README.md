@@ -9,18 +9,20 @@ In terms of UX, it is essential to explore the daily and seasonal usage of bikes
 
 ## Methods:
 
-To achieve the main goal of this study, I use three diferent dataset. The first dataset is for a bake share system( i.e., bluebikes in Boston) for the year 2017 [1]. This dataset includes more than 1,000,000 instances with the following attributes [2]: 
+To achieve the main goal of this study, I used three different dataset. The first dataset was for a bake share system( i.e., Bluebikes in Boston) [1]. Here, I only included data for year 2017. This dataset included more than 1,300,000 instances with the following attributes [2]:
 
-* 1. Trip Duration (seconds), 2. Start Time and Date, 3. Stop Time and Date, 4. Start Station Name & ID, 5. End Station Name & ID, 6. Bike ID, 7. User Type (Casual = Single Trip or Day Pass user; Member = Annual or Monthly Member), 8. Birth Year, 9. Gender
+	1. Trip Duration (seconds), 2. Start Time and Date, 3. Stop Time and Date, 4. Start Station Name & ID, 5. End Station Name & ID, 6. Bike ID, 7. User Type (Casual = Single Trip or Day Pass user; Member = Annual or Monthly Member), 8. Birth Year, 9. Gender
 
-The second dataset [3] includes boston whether data for every days between 1/1/2013-4/8/18. This dataset contains the following attributes:
+The second dataset [3] included Boston weather data for every days between 1/1/2013-4/8/18. Again, I only used dataset for year 2017. This dataset contains the following attributes:
 
-1. averages of temperature, 2. dew point, 3. wind speeds, 4. sea level pressure, and 5. precipitation levels
+	1. averages of temperature, 2. dew point, 3. wind speeds, 4. sea level pressure, and 5. precipitation levels
 
-Finally, the last dataset [3] includes official holidays for Boston in 2017. 
+Finally, the last dataset [3] included 2017 official holidays for Boston.
 
+To analyze data, I first had to join all of the data tables (e.g., biking system dataset, weather dataset, and holidays information. For this purpose, I first created three columns (i.e., year, month, and day) based on the “starttime” column data. I used these new columns as primary keys to merge the biking system dataset with the weather data table which had the same columns. Before merging the holiday data table to other dataset, I reshaped it to include the following columns: year, month, and day. By using these columns, I joined all of the three data tables. I also created ‘age’ and ‘season’ columns based on ‘birth year’ and ‘month’ column respectively. 
 
-Here, after merging the mentioned datasets, I visualize the number of casual/registered users for different seasons, weekdays, weathers, and daytimes. I also test several hypotheses:
+In this project, I was mainly interested in exploring the effects of different factors on the number of trips/day. To compute my main outcomes (# trips/day), I counted the number of the “starttime” for each day. To achieve the main goal of this study, I explored the effects of weather condition, season, gender, and age on the main outcome by visualizing several patterns and testing the following hypotheses:
+
 
 	H1. Number of bike users depends of weather conditions
 	H2. Number of registered users higher than casual users during weekdays
