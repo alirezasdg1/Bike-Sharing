@@ -91,10 +91,10 @@ Table 2. results of multiple comparison of means - Tukey HSD
 
 
 
-
+<p align="center">
 <img src='src/figs/Weather_conditions.png'>
 <center>Fig 2. It shows the mean of the number of trips/day for different weather conditions. Error bars indicate 95% confidence intervals. </em>
-
+</p>
 ### Season effects
 
 My results showed that seasons had significant effects on the outcome variable (Table 3). As you can see in Fig 3, the number of trips/day increased significantly during spring and summer comparing with winter and fall. It is also interesting that the difference between fall and winter is very large (Fig 3).
@@ -112,22 +112,27 @@ Table 3. results of multiple comparison of means - Tukey HSD
 |Summer|Winter|0.001|True  |
 
 
-
+<p align="center">
 <img src='src/figs/Weather_seasons.png'>
 <center>Fig 3. It shows the mean of the number of trips/day for different seasons. Error bars indicate 95% confidence intervals. </em>
+</p>
 
 ## Registered users vs casual users
 
 In this section, I investigated number of trips/day for different users (i.e., registered and casual users). As you can see in Fig 4., the causal users (indicated by red markers) mainly started their trips for stations that were closer to recreational areas. Based on the marker sizes in Fig 4, the majority of trips started by the registered users, and these users are distributed in larger area in Boston.
 
+<p align="center">
 <img src='src/figs/BostonMap.png'>
-Fig 4. It shows start locations and number of trips/day for all of the biking trips in year 2017. The blue markers indicate registered customers and red markers show casual users. The markers sizes are proportional to the number of trips per day. </em>
+</center>Fig 4. It shows start locations and number of trips/day for all of the biking trips in year 2017. The blue markers indicate registered customers and red markers show casual users. The markers sizes are proportional to the number of trips per day. </em>
+</p>
 
 
 Based on Fig.5, in all days of the year 2017, the registered users were higher than casual users. Also, it seems that the pick of bike usages for registered and casual users did not occur at the same time. The pick of usages for the registered users was around September, and for the causal users occurred around June. 
 
+<p align="center">
 <img src='src/figs/UsersOverTime.png'>
 <center>Fig 5. It shows the number of trips/day over time for different users. </em>
+</p>
 
 ## References:
 
