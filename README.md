@@ -45,6 +45,12 @@ In this project, I was mainly interested in exploring the effects of different f
 	H5. Number of trips/day for females and males are similar.
 	H6. Number of trips/day for young people are higher than other age groups.
 
+In the following sections, I discussed the results of my analyses in details.
+
+## The effects of weather on number of trips/day
+
+<img src='src/figs/Weather_conditions.png'>
+
 
 ## References:
 
