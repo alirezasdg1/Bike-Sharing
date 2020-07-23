@@ -135,6 +135,12 @@ Based on Fig.5, in all days of the year 2017, the registered users were higher t
 <center>Fig 5. It shows the number of trips/day over time for different users. </em>
 </p>
 
+### Usage patterns of users for Weekdays vs Weekend
+
+<p align="center">
+<img src='src/figs/UsersDays.png'>
+<center>Fig 5. It shows the number of trips/day over time for different users. </em>
+</p>
 ## References:
 
 1. https://s3.amazonaws.com/hubway-data/index.html
