@@ -116,6 +116,9 @@ Table 3. results of multiple comparison of means - Tukey HSD
 <img src='src/figs/Weather_seasons.png'>
 <center>Fig 3. It shows the mean of the number of trips/day for different seasons. Error bars indicate 95% confidence intervals. </em>
 
+## Registered users vs casual users
+
+<iframe src='src/figs/BostonMap.html'></iframe>
 
 ## References:
 
