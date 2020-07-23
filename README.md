@@ -11,7 +11,7 @@ In terms of UX, it is essential to explore the daily and seasonal usage of bikes
 
 To achieve the main goal of this study, I use three diferent dataset. The first dataset is for a bake share system( i.e., bluebikes in Boston) for the year 2017 [1]. This dataset includes more than 1,000,000 instances with the following attributes [2]: 
 
-1. Trip Duration (seconds), 2. Start Time and Date, 3. Stop Time and Date, 4. Start Station Name & ID, 5. End Station Name & ID, 6. Bike ID, 7. User Type (Casual = Single Trip or Day Pass user; Member = Annual or Monthly Member), 8. Birth Year, 9. Gender
+* 1. Trip Duration (seconds), 2. Start Time and Date, 3. Stop Time and Date, 4. Start Station Name & ID, 5. End Station Name & ID, 6. Bike ID, 7. User Type (Casual = Single Trip or Day Pass user; Member = Annual or Monthly Member), 8. Birth Year, 9. Gender
 
 The second dataset [3] includes boston whether data for every days between 1/1/2013-4/8/18. This dataset contains the following attributes:
 
