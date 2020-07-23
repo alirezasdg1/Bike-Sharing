@@ -76,7 +76,7 @@ Table 1. Correlation between different weather indexes and the number of trips/d
 
 Here, I compared the number of trips/day for different weather conditions (i.e., clear, rainy, snowy, and both rainy and snowy weathers). Analyses of variance (ANOVAs) showed that the weather condition had significant effects on the outcome (p<0.001). I used the Tukey method for performing the paired comparisons. This method showed that the number of trips were significantly higher during clear and rainy weathers comparing with the snowy and both snowy and rainy weathers (Table2 and Fig 2). Surprisingly, there were not any significant differences between rainy and clear weather.
 
-<center>
+
 Table 2. results of multiple comparison of means - Tukey HSD
 
 |group1|group2|p-adj|reject|
@@ -88,21 +88,20 @@ Table 2. results of multiple comparison of means - Tukey HSD
 |None  |Snow  |0.001|True  |
 |Rain  |Snow  |0.001|True  |
 
-<center>
 
 
-<p align="center">
+
+
 <img src='src/figs/Weather_conditions.png'>
 
 <center>Fig 2. It shows the mean of the number of trips/day for different weather conditions. Error bars indicate 95% confidence intervals. </em>
-</p>
+
 
 ### Season effects
 
 My results showed that seasons had significant effects on the outcome variable (Table 3). As you can see in Fig 3, the number of trips/day increased significantly during spring and summer comparing with winter and fall. It is also interesting that the difference between fall and winter is very large (Fig 3).
 
-<p>
-<center>
+
 Table 3. results of multiple comparison of means - Tukey HSD
 
 |group1|group2|p-adj|reject|
@@ -114,14 +113,12 @@ Table 3. results of multiple comparison of means - Tukey HSD
 |Spring|Winter|0.002|True  |
 |Summer|Winter|0.001|True  |
 
-<center>
-</p>
 
-<p align="center">
+
 <img src='src/figs/Weather_seasons.png'>
 
 <center>Fig 3. It shows the mean of the number of trips/day for different seasons. Error bars indicate 95% confidence intervals. </em>
-</p>
+
 
 ## References:
 
