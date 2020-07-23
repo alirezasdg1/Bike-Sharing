@@ -63,7 +63,7 @@ Table 1. Correlation between different weather indexes and the number of trips/d
 |Avg Visibility (mi)|       0.130|          -0.619|              1.000|        -0.102|          0.296|
 |Avg Wind (mph)     |      -0.226|          -0.134|             -0.102|         1.000|         -0.319|
 |Total_count_day    |       0.844|           0.000|              0.296|        -0.319|          1.000|
-<center>
+</center>
 
 
 <p align="center">
@@ -75,7 +75,7 @@ Table 1. Correlation between different weather indexes and the number of trips/d
 
 Here, I compared the number of trips/day for different weather conditions (i.e., clear, rainy, snowy, and both rainy and snowy weathers). Analyses of variance (ANOVAs) showed that the weather condition had significant effects on the outcome (p<0.001). I used the Tukey method for performing the paired comparisons. This method showed that the number of trips were significantly higher during clear and rainy weathers comparing with the snowy and both snowy and rainy weathers (Table2 and Fig 2). Surprisingly, there were not any significant differences between rainy and clear weather.
 
-
+<p align="center">
 Table 2. results of multiple comparison of means - Tukey HSD
 
 |group1|group2|p-adj|reject|
@@ -86,7 +86,7 @@ Table 2. results of multiple comparison of means - Tukey HSD
 |None  |Rain  |0.653|False |
 |None  |Snow  |0.001|True  |
 |Rain  |Snow  |0.001|True  |
-
+</p>
 
 
 
@@ -118,7 +118,7 @@ Table 3. results of multiple comparison of means - Tukey HSD
 
 ## Registered users vs casual users
 
-<iframe src='src/figs/BostonMap.html'></iframe>
+<iframe src="src/figs/BostonMap.html' width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 ## References:
 
