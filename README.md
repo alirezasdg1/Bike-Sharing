@@ -49,10 +49,11 @@ In the following sections, I discussed the results of my analyses in details.
 
 ## The effects of weather on number of trips/day
 
-<div style="text-align:center"><img src='src/figs/Weather_conditions.png'>
+<p align="center">
+<img src='src/figs/Weather_conditions.png'>
 
 <em>Fig 1. It shows the mean of the number of trips/day for different weather conditions. Error bars indicate 95% confidence intervals. </em>
-
+</p>
 
 ## References:
 
