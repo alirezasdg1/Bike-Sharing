@@ -49,20 +49,43 @@ In the following sections, I discussed the results of my analyses in details.
 
 ## The effects of weather on number of trips/day
 
-### Weather conditions:
+### Weather indexes and the number of trips per day
 
-Here, I compared the number of trips/day for different weather conditions (i.e., clear, rainy, snowy, and both rainy and snowy weathers). Analyses of variance (ANOVAs) showed that the weather condition had significant effects on the outcome (p<0.001). I used the Tukey method for performing the paired comparisons. This method showed that the number of trips were significantly higher during clear and rainy weathers comparing with the snowy and both snowy and rainy weathers (Table1 and Fig 1). Surprisingly, there were not any significant differences between rainy and clear weather.
+I first explored whether there were any correlations between the number of trips and weather indexes. I found that the average temperatures and the number of trips for each day are highly correlated (Table 1 and Fig1). Though the number of trips and other indexes were not highly corelated, the effects of some these indexes on the output were significant. For example, the correlation between average wind speed and the outcome were significant (p-value <0.001).    
 
 <center>
+Table 1. Correlation between different weather indexes and the number of trips/day 
+
+|       index       |Avg Temp (F)|Avg Humidity (%)|Avg Visibility (mi)|Avg Wind (mph)|Number of trips/day|
+|-------------------|-----------:|---------------:|------------------:|-------------:|--------------:|
+|Avg Temp (F)       |       1.000|           0.173|              0.130|        -0.226|          0.844|
+|Avg Humidity (%)   |       0.173|           1.000|             -0.619|        -0.134|          0.000|
+|Avg Visibility (mi)|       0.130|          -0.619|              1.000|        -0.102|          0.296|
+|Avg Wind (mph)     |      -0.226|          -0.134|             -0.102|         1.000|         -0.319|
+|Total_count_day    |       0.844|           0.000|              0.296|        -0.319|          1.000|
+<center>
+
+<p align="center">
+<img src='src/figs/Weather_Indexes.png'>
+
+<center>Fig 2. The correlation between different weather indexes and the outcomes variables. </em>
+</p>
+
+### Weather conditions:
+
+Here, I compared the number of trips/day for different weather conditions (i.e., clear, rainy, snowy, and both rainy and snowy weathers). Analyses of variance (ANOVAs) showed that the weather condition had significant effects on the outcome (p<0.001). I used the Tukey method for performing the paired comparisons. This method showed that the number of trips were significantly higher during clear and rainy weathers comparing with the snowy and both snowy and rainy weathers (Table2 and Fig 2). Surprisingly, there were not any significant differences between rainy and clear weather.
+
+<center>
+Table 3. results of multiple comparison of means - Tukey HSD
 
 |group1|group2|p-adj|reject|
-|-----:|-----:|----:|------|
-|  Good|  Rain|0.001|True  |
-|  Good|  Snow|0.001|True  |
-|  Good|  Both|0.001|True  |
-|  Rain|  Snow|0.001|True  |
-|  Rain|  Both|0.002|True  |
-|  Snow|  Both|0.001|True  |
+|------|------|----:|------|
+|Both  |None  |0.001|True  |
+|Both  |Rain  |0.001|True  |
+|Both  |Snow  |0.900|False |
+|None  |Rain  |0.653|False |
+|None  |Snow  |0.001|True  |
+|Rain  |Snow  |0.001|True  |
 
 <center>
 
@@ -70,7 +93,7 @@ Here, I compared the number of trips/day for different weather conditions (i.e.,
 <p align="center">
 <img src='src/figs/Weather_conditions.png'>
 
-<center>Fig 1. It shows the mean of the number of trips/day for different weather conditions. Error bars indicate 95% confidence intervals. </em>
+<center>Fig 2. It shows the mean of the number of trips/day for different weather conditions. Error bars indicate 95% confidence intervals. </em>
 </p>
 
 
