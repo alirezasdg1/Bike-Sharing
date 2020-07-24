@@ -164,6 +164,7 @@ Table 4. results of multiple comparison of means - Tukey HSD
 <img src='src/figs/GenderAge.png'>
 <center>Fig 7. It shows the mean of the number of trips/day for different age groups (left) and gender (right). Error bars indicate 95% confidence intervals.  </em>
 </p>
+
 ## References:
 
 1. https://s3.amazonaws.com/hubway-data/index.html
