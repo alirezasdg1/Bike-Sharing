@@ -132,7 +132,7 @@ Based on Fig.5, in all days of the year 2017, the registered users were higher t
 
 <p align="center">
 <img src='src/figs/UsersOverTime.png'>
-<center>Fig 5. It shows the number of trips/day over time for different users. </em>
+<center>Fig 5. It shows the number of trips/day over time for different users. Error bars indicate 95% confidence intervals. </em>
 </p>
 
 ### Usage patterns of users for Weekdays vs Weekend
@@ -141,15 +141,12 @@ I investigated the usage patterns of different users for weekdays and weekend. T
 
 <p align="center">
 <img src='src/figs/UsersDays.png'>
-<center>Fig 6. It shows the mean of the number of trips/day of different users for weekdays vs weekend. Error bars indicate 95% confidence intervals. </em>
+<center>Fig 6. It shows the mean of the number of trips/day of different users for weekdays vs weekend. </em>
 </p>
 
 ## Age and gender effects
 
 
-
-<center>
-Table 3. results of multiple comparison of means - Tukey HSD
 |group1 |group2 |p-adj|reject|
 |-------|-------|----:|------|
 |< 18   |[18-40]|0.001|True  |
@@ -158,14 +155,12 @@ Table 3. results of multiple comparison of means - Tukey HSD
 |[18-40]|[40-65]|0.001|True  |
 |[18-40]|[>65]  |0.001|True  |
 |[40-65]|>65    |0.001|True  |
-</center>
+
 
 <p align="center">
 <img src='src/figs/GenderAge.png'>
 <center>Fig 7. It shows the mean of the number of trips/day for different age groups (left) and gender (right). Error bars indicate 95% confidence intervals.  </em>
 </p>
-
-
 ## References:
 
 1. https://s3.amazonaws.com/hubway-data/index.html
