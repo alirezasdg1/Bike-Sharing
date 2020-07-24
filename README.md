@@ -165,6 +165,13 @@ Table 4. results of multiple comparison of means - Tukey HSD
 <center>Fig 7. It shows the mean of the number of trips/day for different age groups (left) and gender (right). Error bars indicate 95% confidence intervals.  </em>
 </p>
 
+## Discussion and Conclusion
+
+In this study, I explored the effects of different factors (i.e., weather, customer types, age, and gender) on the number of trips/day. In general, the results support my hypotheses. 
+As I expected, the number of trips increased by improving weather conditions. It is worth noting that, rainy weather did not have significant effects on the outcome variable (Table 2 and Fig.2). Also, the number of trips were significantly lower than other seasons. These results together imply that road conditions play a key role for the users to decide whether they should use bikes or other types of transportations. Therefore, it is essential to include data related to road conditions for obtain better understanding the bike system data.   
+Exploring data related to type of customers showed that the casual users mainly used bikes in areas that close to the creational centers (Fig. 4). However, the registered users started their trips from a wider area in Boston. It is also worth noting that the casual users started their trips during summer more often (Fig. 5). However, the pike of usages for the registered users were around September. Finally, while the number of trips of registered users were lower during weekend, the casual users started more trips during weekend (Fig. 6). All of these results together suggest that the registers users use bikes as a transportation method, but casual users mainly use bikes for fun. As such, to make appropriate transportation policies, we should mainly study data related to registered users. 
+The gender and age analyses showed that we should adopt should policies to encourage middle age group and females to use bike more frequently. While the number of trips for these groups (females and middle age group) are noticeable (Fig. 7), they do not use bike as much as other groups (males and young people). We should provide appropriate incentives for females and middle age group.
+
 ## References:
 
 1. https://s3.amazonaws.com/hubway-data/index.html
