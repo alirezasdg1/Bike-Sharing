@@ -137,9 +137,11 @@ Based on Fig.5, in all days of the year 2017, the registered users were higher t
 
 ### Usage patterns of users for Weekdays vs Weekend
 
+I investigated the usage patterns of different users for weekdays and weekend. T-test analyses showed that the number of trips for registered users are significantly (p-value < 0.001) higher than casual user plus 10% percent of the total usages for both weekdays and weekend. It is also worth noting that the number of trips of registered users decreased from weekdays to weekend (Fig 6). This pattern is opposite for casual users.
+
 <p align="center">
 <img src='src/figs/UsersDays.png'>
-<center>Fig 5. It shows the number of trips/day over time for different users. </em>
+<center>Fig 6. It shows the mean of the number of trips/day of different users for weekdays vs weekend. </em>
 </p>
 ## References:
 
