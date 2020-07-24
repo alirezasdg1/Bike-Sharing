@@ -39,3 +39,13 @@ def add_marker(df,folium_map):
         df.marker.iloc[i].add_to(folium_map)
     return folium_map    
 
+def grouby_function (df,lstGroup,d):
+    ''' df : A pandas dataframe
+        lstGroup: list of all the features that should be grouped by. 
+        emaple for lstGroup: ['Year','Month']
+        d: a dictionary including new column name, agg function,
+        and name of the column that you want to agg on it
+        eample: d = {'Total_count_day': pd.NamedAgg(column='starttime', aggfunc='count')} 
+    '''
+    
+    return df.groupby(lstGroup).agg(**d).reset_index()
