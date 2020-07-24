@@ -143,6 +143,18 @@ I investigated the usage patterns of different users for weekdays and weekend. T
 <img src='src/figs/UsersDays.png'>
 <center>Fig 6. It shows the mean of the number of trips/day of different users for weekdays vs weekend. </em>
 </p>
+
+## Age and gender effects
+
+|group1 |group2 |p-adj|reject|
+|-------|-------|----:|------|
+|< 18   |[18-40]|0.001|True  |
+|< 18   |[40-65]|0.001|True  |
+|< 18   |[> 65] |0.900|False |
+|[18-40]|[40-65]|0.001|True  |
+|[18-40]|[>65]  |0.001|True  |
+|[40-65]|>65    |0.001|True  |
+
 ## References:
 
 1. https://s3.amazonaws.com/hubway-data/index.html
