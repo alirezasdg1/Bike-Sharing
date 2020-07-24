@@ -49,3 +49,11 @@ def grouby_function (df,lstGroup,d):
     '''
     
     return df.groupby(lstGroup).agg(**d).reset_index()
+
+def fig_bar (ax,x,y,y_err,xlabel,ylabel):
+    ax.bar(x, y, yerr=y_err, align='center', alpha=0.7, ecolor='black', capsize=5)
+    ax.set_xlabel(xlabel,fontsize=16)
+    ax.set_ylabel(ylabel,fontsize=16)
+    ax.tick_params(axis='both', which='major', labelsize=12)
+    plt.tight_layout()
+    return 
