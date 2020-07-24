@@ -9,7 +9,7 @@ In terms of UX, it is essential to explore the daily and seasonal usage of bikes
 
 ## Methods:
 
-To achieve the main goal of this study, I used three different dataset. The first dataset was for a bake share system( i.e., Bluebikes in Boston) [1]. Here, I only included data for year 2017. This dataset included more than 1,300,000 instances with the following attributes [2]:
+To achieve the main goal of this study, I used three different datasets. The first dataset was for a bake share system( i.e., Bluebikes in Boston) [1]. Here, I only included data for year 2017. This dataset included more than 1,300,000 instances with the following attributes [2]:
 
 	1. Trip Duration (seconds)
 	2. Start Time and Date
@@ -31,7 +31,7 @@ The second dataset [3] included Boston weather data for every days between 1/1/2
 
 Finally, the last dataset [3] included 2017 official holidays for Boston.
 
-To analyze data, I first had to join all of the data tables (e.g., biking system dataset, weather dataset, and holidays information. For this purpose, I first created three columns (i.e., year, month, and day) based on the “starttime” column data. I used these new columns as primary keys to merge the biking system dataset with the weather data table which had the same columns. Before merging the holiday data table to other dataset, I reshaped it to include the following columns: year, month, and day. By using these columns, I joined all of the three data tables. I also created ‘age’ and ‘season’ columns based on ‘birth year’ and ‘month’ column respectively. 
+To analyze data, I first had to join all of the data tables (i.e., biking system dataset, weather dataset, and holidays information). For this purpose, I first created three columns (i.e., year, month, and day) based on the “starttime” column data. I used these new columns as primary keys to merge the biking system dataset with the weather data table which had the same columns. Before merging the holiday data table to other datasets, I reshaped it to include the following columns: year, month, and day. By using these columns, I joined all of the three data tables. I also created ‘age’ and ‘season’ columns based on ‘birth year’ and ‘month’ column respectively. 
 
 In this project, I was mainly interested in exploring the effects of different factors on the number of trips/day. To compute my main outcomes (# trips/day), I counted the number of the “starttime” for each day. To achieve the main goal of this study, I explored the effects of weather condition, season, gender, and age on the main outcome by visualizing several patterns and testing the following hypotheses:
 
@@ -120,7 +120,7 @@ Table 3. results of multiple comparison of means - Tukey HSD
 
 ## Registered users vs casual users
 
-In this section, I investigated number of trips/day for different users (i.e., registered and casual users). As you can see in Fig 4., the causal users (indicated by red markers) mainly started their trips for stations that were closer to recreational areas. Based on the marker sizes in Fig 4, the majority of trips started by the registered users, and these users are distributed in larger area in Boston.
+In this section, I investigated how the number of trips/day look like for different users (i.e., registered and casual users). As you can see in Fig 4., the causal users (indicated by red markers) mainly started their trips from stations that were closer to recreational areas. Based on the marker sizes in Fig 4, the majority of trips started by the registered users, and these users are distributed in larger area in Boston.
 
 <p align="center">
 <img src='src/figs/BostonMap.png'>
@@ -137,7 +137,7 @@ Based on Fig.5, in all days of the year 2017, the registered users were higher t
 
 ### Usage patterns of users for Weekdays vs Weekend
 
-I investigated the usage patterns of different users for weekdays and weekend. T-test analyses showed that the number of trips for registered users are significantly (p-value < 0.001) higher than casual user plus 10% percent of the total usages for both weekdays and weekend. It is also worth noting that the number of trips of registered users decreased from weekdays to weekend (Fig 6). This pattern is opposite for casual users.
+I investigated the usage patterns of different users for weekdays and weekend. T-test analyses showed that the number of trips/day for registered users are significantly (p-value < 0.001) higher than casual users for both weekdays and weekend. It is also worth noting that the number of trips of registered users decreased from weekdays to weekend (Fig 6). This pattern is opposite for casual users.
 
 <p align="center">
 <img src='src/figs/UsersDays.png'>
@@ -146,7 +146,7 @@ I investigated the usage patterns of different users for weekdays and weekend. T
 
 ## Age and gender effects
 
-ANOVA analysis revealed that age had significant effects on the number of trips/day (p-value < 0.001). Young people ( 18< age <40 ) had the highest number of trips/day among all of the age groups (Fig. 7, left). Though, the number of trips/day for middle age group (40 < age <65) were significantly lower than the young group (Table 4, Fig. 7), bike usages of this group is still noticeable comparing to the elderly and individuals younger than 18 years old. In addition, t-test analysis indicated that males had significantly number of trips/day comparing to females (Fig. 7, right).
+ANOVA analysis revealed that age had significant effects on the number of trips/day (p-value < 0.001). Young people ( 18< age <40 ) had the highest number of trips/day among all of the age groups (Fig. 7, left). Though, the number of trips/day for middle age group (40 < age <65) were significantly lower than the young group (Table 4, Fig. 7), bike usages of this group was still noticeable comparing to the elderly and individuals younger than 18 years old. In addition, t-test analysis indicated that males had significantly higher (p-value < 0.001) number of trips/day comparing to females (Fig. 7, right).
 
 
 Table 4. results of multiple comparison of means - Tukey HSD
@@ -168,11 +168,11 @@ Table 4. results of multiple comparison of means - Tukey HSD
 ## Discussion and Conclusion
 
 In this study, I explored the effects of different factors (i.e., weather, customer types, age, and gender) on the number of trips/day. In general, the results support my hypotheses. 
-As I expected, the number of trips increased by improving weather conditions. It is worth noting that, rainy weather did not have significant effects on the outcome variable (Table 2 and Fig.2). Also, the number of trips were significantly lower than other seasons. These results together imply that road conditions play a key role for the users to decide whether they should use bikes or other types of transportations. Therefore, it is essential to include data related to road conditions for obtain better understanding the bike system data.   
+As I expected, the number of trips increased by improving weather conditions. It is worth noting that, rainy weather did not have significant effects on the outcome variable (Table 2 and Fig.2). Also, the number of trips were significantly lower than other seasons. These results together imply that road conditions play a key role for the users to decide whether they should use bikes or other types of transportations. Therefore, it is essential to include data related to road conditions to have a better understanding about the bike system data.
 
-Exploring data related to type of customers showed that the casual users mainly used bikes in areas that close to the creational centers (Fig. 4). However, the registered users started their trips from a wider area in Boston. It is also worth noting that the casual users started their trips during summer more often (Fig. 5). However, the pike of usages for the registered users were around September. Finally, while the number of trips of registered users were lower during weekend, the casual users started more trips during weekend (Fig. 6). All of these results together suggest that the registers users use bikes as a transportation method, but casual users mainly use bikes for fun. As such, to make appropriate transportation policies, we should mainly study data related to registered users. 
+Exploring data related to type of customers showed that the casual users mainly used bikes in areas that were closer to the creational centers (Fig. 4). However, the registered users started their trips from more diverse areas in Boston. It is also worth noting that the casual users started their trips during summer more often (Fig. 5). However, the pike of usages for the registered users were around September. Finally, while the number of trips of registered users were lower during weekend, the casual users started more trips during weekend (Fig. 6). All of these results together suggest that the registers users use bikes as a transportation method, but casual users mainly use bikes for fun. As such, to make appropriate transportation policies, we should mainly consider data related to the registered users. 
 
-The gender and age analyses showed that we should adopt should policies to encourage middle age group and females to use bike more frequently. While the number of trips for these groups (females and middle age group) are noticeable (Fig. 7), they do not use bike as much as other groups (males and young people). We should provide appropriate incentives for females and middle age group.
+The gender and age analyses showed that we should adopt new policies to encourage the middle age group and females to use bike more. While the number of trips for these groups (females and middle age group) are noticeable (Fig. 7), they do not use bike as much as other groups (males and young people). As such, we should provide appropriate incentives for females and middle age group to make sure that they will use bikes for transportation more.
 
 ## References:
 
