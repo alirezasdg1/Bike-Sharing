@@ -146,7 +146,10 @@ I investigated the usage patterns of different users for weekdays and weekend. T
 
 ## Age and gender effects
 
+ANOVA and t-test analyses revealed that both age and gender had significant effects on the number of trips/day (p-value < 0.001).
 
+
+Table 4. results of multiple comparison of means - Tukey HSD
 |group1 |group2 |p-adj|reject|
 |-------|-------|----:|------|
 |< 18   |[18-40]|0.001|True  |
