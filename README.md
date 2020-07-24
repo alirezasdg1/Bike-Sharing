@@ -146,7 +146,7 @@ I investigated the usage patterns of different users for weekdays and weekend. T
 
 ## Age and gender effects
 
-ANOVA and t-test analyses revealed that both age and gender had significant effects on the number of trips/day (p-value < 0.001).
+ANOVA analysis revealed that age had significant effects on the number of trips/day (p-value < 0.001). Young people ( 18< age <40 ) had the highest number of trips/day among all of the age groups (Fig. 7, left). Though, the number of trips/day for middle age group (40 < age <65) were significantly lower than the young group (Table 4, Fig. 7), bike usages of this group is still noticeable comparing to the elderly and individuals younger than 18 years old. In addition, t-test analysis indicated that males had significantly number of trips/day comparing to females (Fig. 7, right).
 
 
 Table 4. results of multiple comparison of means - Tukey HSD
