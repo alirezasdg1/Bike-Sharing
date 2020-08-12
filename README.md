@@ -174,6 +174,7 @@ Exploring data related to type of customers showed that the casual users mainly 
 
 The gender and age analyses showed that we should adopt new policies to encourage the middle age group and females to use bike more. While the number of trips for these groups (females and middle age group) are noticeable (Fig. 7), they do not use bike as much as other groups (males and young people). As such, we should provide appropriate incentives for females and middle age group to make sure that they will use bikes for transportation more.
 
+
 ## References:
 
 1. https://s3.amazonaws.com/hubway-data/index.html
